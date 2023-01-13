@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/political-basketball/static/css/main.53c9c695.css",
+    "main.js": "/political-basketball/static/js/main.922b907a.js",
+    "static/media/Alice-Regular.ttf": "/political-basketball/static/media/Alice-Regular.6b04cfab64740e465bb7.ttf",
+    "static/media/Bullpen3D.ttf": "/political-basketball/static/media/Bullpen3D.f464825dbbbfb6c3a67d.ttf",
+    "index.html": "/political-basketball/index.html",
+    "main.53c9c695.css.map": "/political-basketball/static/css/main.53c9c695.css.map",
+    "main.922b907a.js.map": "/political-basketball/static/js/main.922b907a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53c9c695.css",
+    "static/js/main.922b907a.js"
+  ]
+}
