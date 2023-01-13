@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(42, 42, 42);
+  color: white;
+  margin-bottom: 100px;
+}
+
+.flex-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  button {
+    width: 200px;
+    height: 65px;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+h1 {
+  font-family: 'Bullpen3D';
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+  font-family: 'Alice';
+}
+
+@font-face {
+  font-family: 'Alice';
+  src: local('Alice-Regular'),
+    url('./fonts/Alice-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bullpen3D';
+  src: local('Bullpen3D'), url('./fonts/Bullpen3D.ttf') format('truetype');
+}

@@ -1,0 +1,27 @@
+nav {
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  button {
+    width: 160px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    p {
+      display: inline;
+      margin: 10px;
+      font-size: 20px;
+    }
+  }
+}
+aside {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  img {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+  }
+}

@@ -1,0 +1,60 @@
+#select-text {
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+  left: 0;
+  line-height: 150px;
+  height: 200px;
+  width: 100vw;
+  animation: fade-in 0.1s forwards;
+  text-align: center;
+}
+#overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+  background-color: rgb(42, 42, 42);
+  animation: fade-in 0.1s forwards;
+}
+#team-select {
+  position: fixed;
+  z-index: 2;
+  top: calc(50vh - 200px);
+  left: calc(50vw - 400px);
+  width: 800px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-areas: inherit;
+  justify-items: center;
+  align-items: center;
+  background-color: #222;
+  img {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+  }
+  button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
+  animation: fade-in 0.1s forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
